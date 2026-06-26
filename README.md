@@ -15,6 +15,9 @@ feature.
 - Display Top 5 scorers using JTable
 ## Database
 Database used: PostgreSQL 
+- Use one table
+<img width="500" height="125" alt="Screenshot 2026-06-26 201143" src="https://github.com/user-attachments/assets/fe998cf8-39e1-4eb9-935b-6019c298bdde" />
+
 ## How to Run
 1. Create the database.
 2. Import schema.sql.
