@@ -56,4 +56,4 @@ Player: stores player information such as ID, username, wins, losses, draws, and
 <img width="209" height="179" alt="Screenshot 2026-06-26 181355" src="https://github.com/user-attachments/assets/419ccf8b-3380-4e69-9918-f6e97af2852e" />
 
 ## Video Link
-YouTube:
+YouTube: https://youtu.be/YPK_OLhAnSo
