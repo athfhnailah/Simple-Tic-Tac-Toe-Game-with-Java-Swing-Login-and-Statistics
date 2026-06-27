@@ -15,6 +15,9 @@ feature.
 - Display Top 5 scorers using JTable
 ## Database
 Database used: PostgreSQL 
+## How To Create Database
+<img width="466" height="299" alt="Screenshot 2026-06-27 232549" src="https://github.com/user-attachments/assets/15f63a12-5e8b-43be-a36b-eac7f21de132" />
+
 - Use one table
 <img width="500" height="125" alt="Screenshot 2026-06-26 201143" src="https://github.com/user-attachments/assets/fe998cf8-39e1-4eb9-935b-6019c298bdde" />
 
@@ -28,32 +31,35 @@ Database used: PostgreSQL
 ## Class Explanation
 - Main: to start the application. This opens the Login Frame when the program is run.
 - DatabaseManager: making a connection to PostgreSQL.
-Player: stores player information such as ID, username, wins, losses, draws, and score.
-- PlayerService: handling all database operations like login, updating player stats, getting player information, and fetching the top 5 scorers.
-- GameLogic: This handles the player's moves, the computer's moves, then checks for a winner or a tie and resets the board.
+- Player: stores player information such as ID, username, wins, losses, draws, and score.
+- PlayerService: handling all database operations like login, updating player stats, getting player information, and retrieving Top 5 scorers
+- GameLogic: Handles move validation, winner checking, draw check
+ing, and computer moves then resets the board.
 - LoginFrame: display a login window with username and password fields. Then show the main page if the login is successful
-- MainMenuFrame: display the main menu to start the game, view statistics, top 5 scorers, or exit
+- MainMenuFrame: display the main menu after login to start the game, view statistics, top 5 scorers, or exit
 - GameFrame: This class displays the Tic Tac Toe game board. 
 - StatisticsFrame: displaying player statistics including wins, losses, draws, and scores.
 - TopScorersFrame: This class displays the top 5 players with the highest scores using a JTable. It uses a database to fetch the data.
 ## Screenshots
 - Login Window 
-<img width="256" height="152" alt="Screenshot 2026-06-26 181012" src="https://github.com/user-attachments/assets/c9044048-cfbc-4851-841a-f4365877d7f3" />
+<img width="450" height="352" alt="Screenshot 2026-06-26 181012" src="https://github.com/user-attachments/assets/c9044048-cfbc-4851-841a-f4365877d7f3" />
 
 - Login Failed
-<img width="262" height="154" alt="Screenshot 2026-06-26 181100" src="https://github.com/user-attachments/assets/7419eec3-faad-4294-9471-d1e85eac996a" />
+<img width="460" height="350" alt="Screenshot 2026-06-26 181100" src="https://github.com/user-attachments/assets/7419eec3-faad-4294-9471-d1e85eac996a" />
 
 - Main Menu Window
-<img width="219" height="192" alt="Screenshot 2026-06-26 181032" src="https://github.com/user-attachments/assets/75548ce5-a1cd-40c4-8b7c-b0169d8de12d" />
+<img width="410" height="399" alt="Screenshot 2026-06-26 181032" src="https://github.com/user-attachments/assets/75548ce5-a1cd-40c4-8b7c-b0169d8de12d" />
 
 - Game Window
-<img width="287" height="326" alt="Screenshot 2026-06-26 181149" src="https://github.com/user-attachments/assets/0c4a2015-82ee-48c5-a5ac-4f987069865f" />
+<img width="457" height="368" alt="Screenshot 2026-06-26 181149" src="https://github.com/user-attachments/assets/0c4a2015-82ee-48c5-a5ac-4f987069865f" />
 
 - Top 5 Window
 <img width="439" height="216" alt="Screenshot 2026-06-26 181315" src="https://github.com/user-attachments/assets/32b5f43c-8785-4434-bbd7-ee46e48d225e" />
 
 - My Statistics Window
-<img width="209" height="179" alt="Screenshot 2026-06-26 181355" src="https://github.com/user-attachments/assets/419ccf8b-3380-4e69-9918-f6e97af2852e" />
+<img width="410" height="230" alt="Screenshot 2026-06-26 181355" src="https://github.com/user-attachments/assets/419ccf8b-3380-4e69-9918-f6e97af2852e" />
 
+## Github Link
+https://github.com/athfhnailah/Simple-Tic-Tac-Toe-Game-with-Java-Swing-Login-and-Statistics.git
 ## Video Link
 YouTube: https://youtu.be/YPK_OLhAnSo
